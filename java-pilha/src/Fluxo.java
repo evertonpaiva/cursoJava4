@@ -4,10 +4,10 @@ public class Fluxo {
         System.out.println("Ini do main");
         try {
         	metodo1();
-        } catch (ArithmeticException | NullPointerException | MinhaException ex) {
+        } catch (Exception ex) {
         	String msg = ex.getMessage();
 			System.out.println(ex.getClass() + ": " + msg);
-		} 
+		}
         System.out.println("Fim do main");
     }
 
